@@ -1,47 +1,51 @@
-# Terms of Service
+
+# Privacy Policy
 
 **Effective Date:** March 24, 2026
 
-These Terms of Service ("Terms") govern your use of the TBD-Bot Discord bot ("the Bot"). By inviting or using the Bot in your Discord server, you agree to these Terms and our [Privacy Policy](PRIVACY.md).
+This Privacy Policy explains how the TBD-Bot Discord bot ("the Bot") collects, uses, and stores information from users who interact with the Bot on Discord servers.
 
-## Acceptance of Terms and Privacy Policy
+## Information We Collect
 
-By using or inviting the Bot, you acknowledge and agree to these Terms and the Privacy Policy. If you do not agree, do not use the Bot.
+- **Transcript Text:** The Bot transcribes and stores only the text of conversations that occur in voice channels where the Bot is active.
+- **Discord Username:** The Bot stores the Discord username (e.g., User#1234) of participants for attribution in transcripts.
+- **Discord User ID (Optional):** By default, the Bot does not collect or store Discord user IDs. However, server administrators may enable this feature. If enabled, Discord user IDs will be stored for attribution and administrative purposes. This setting is configurable by the server owner.
 
-## Use of the Bot
+**No audio recordings or raw audio data are ever saved or retained.**
 
-- The Bot is provided to transcribe voice channel conversations into text for informational and administrative purposes.
-- You must comply with all applicable Discord Terms of Service and Community Guidelines.
-- You are responsible for informing your server members that conversations may be transcribed.
+## How We Use Information
 
-## Data Handling
+- To provide transcription services and generate text transcripts for server administrators and users.
+- To attribute transcript text to the correct Discord username (and, if enabled, Discord user ID).
 
-- The Bot only stores transcript text and Discord usernames. No audio or Discord user IDs are retained.
-- By using the Bot, you consent to the collection and storage of this information as described in the [Privacy Policy](PRIVACY.md).
+## Data Storage and Security
 
-## User Conduct
+- Transcripts are stored as text files or in a database, accessible only to authorized server administrators or as configured by the server owner.
+- No audio files are stored. Discord user IDs are only stored if the feature is enabled by the server owner.
+- Reasonable security measures are in place to protect stored transcript data from unauthorized access.
 
-- You may not use the Bot for illegal, harmful, or abusive purposes.
-- You may not attempt to reverse engineer, disrupt, or misuse the Bot.
+## Data Retention
 
-## Disclaimer
+- Transcript text, usernames, and (if enabled) user IDs are retained only as long as necessary for the operation of the Bot or as configured by the server owner.
+- Users or server administrators may request deletion of transcript data by contacting the Bot owner.
 
-- The Bot is provided "as is" without warranties of any kind.
-- The Bot owner is not liable for any damages or losses resulting from use or inability to use the Bot.
+## Transcription Processing
 
-## Termination
+- All transcription is performed locally using the vibe-transcriber package and/or a self-hosted Vibe API. No transcript data is sent to third-party or external services for processing.
 
-- The Bot owner may remove or restrict access to the Bot at any time for any reason.
-- You may remove the Bot from your server at any time.
+## User Rights
 
-## Changes to These Terms
+- Users may request access to, correction of, or deletion of their transcript data by contacting the Bot owner.
+- Users may remove the Bot from their server at any time to stop all data collection.
 
-We may update these Terms from time to time. Continued use of the Bot after changes constitutes acceptance of the new Terms.
+## Children’s Privacy
 
-## Jurisdiction and Dispute Resolution (Optional)
+- The Bot is not intended for use by children under the age of 13. We do not knowingly collect personal information from children under 13. If you believe such information has been collected, please contact the Bot owner for prompt removal.
 
-These Terms are governed by the laws of the Bot owner's jurisdiction. Any disputes arising from use of the Bot will be resolved in accordance with those laws. If you have a dispute, please contact the Bot owner first to seek a resolution.
+## Changes to This Policy
+
+We may update this Privacy Policy from time to time. Changes will be posted in this document with an updated effective date.
 
 ## Contact
 
-For questions about these Terms, please contact the Bot owner or administrator as listed in the Bot's profile or documentation.
+For questions or requests regarding your data, please contact the Bot owner or administrator as listed in the Bot's profile or documentation.
